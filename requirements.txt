@@ -1,0 +1,13 @@
+ultralytics
+opencv-python
+mediapipe
+numpy
+Pillow
+
+streamlit
+plotly
+
+pandas
+
+python-dateutil
+pytz
