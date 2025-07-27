@@ -1,5 +1,49 @@
-create a virtual envirement with python 3.10
-activate virtual enviroment
-download all requirements.txt
-run on terminal - python setup.py
-run on terminal - python main.py
+Usage Guide
+Python Version Compatibility:
+This project supports only Python 3.9 to 3.10. Please ensure you're using one of these versions before proceeding.
+
+1.  Setup Environment
+Open your terminal or command prompt and follow the steps below:
+
+bash
+Copy
+Edit
+# Step 1: Create a virtual environment with Python 3.9 or 3.10
+python -m venv venv
+
+# Step 2: Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Step 3: Install project dependencies
+pip install -r requirements.txt
+2.  Project Initialization
+After setting up the environment and activating it, run the following:
+
+bash
+Copy
+Edit
+# Step 4: Run the setup script
+python setup.py install
+ This will configure necessary components for the app to run properly.
+
+3.  Start the Application
+bash
+Copy
+Edit
+# Step 5: Launch the main application
+python main.py
+This will open your default browser with the project dashboard.
+
+4.  Upload & Analyze
+Once the browser interface opens:
+
+Click on the "Upload" button.
+
+Select a video file in .mp4 format only.
+
+Click "Analyze" to start processing.
+
+ Only .mp4 files are supported for video analysis.
